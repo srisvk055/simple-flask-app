@@ -9,7 +9,7 @@ RUN . venv/bin/activate
 COPY requirements.txt .
 RUN pip install -r requirements.txt
 
-COPY . .
+COPY app.py .
 
 EXPOSE 8081
 CMD [ "waitress-serve", "--port=8081", "app:app"]
