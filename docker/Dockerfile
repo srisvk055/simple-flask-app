@@ -1,12 +1,4 @@
 ####
-# This Dockerfile is used in order to build a container that runs the Spring Boot application
-#
-# Build the image with:
-#
-# docker build -f docker/Dockerfile -t python/sample-basic .
-#
-# Then run the container using:
-#
 # docker run -i --rm -p 8081:8081 python/sample-basic
 ####
 FROM python:slim
