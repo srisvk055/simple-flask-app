@@ -1,2 +1,6 @@
 Flask==1.1.2
+<<<<<<< HEAD
 waitress==2.0.0
+=======
+waitress==2.0.0
+>>>>>>> f571548abd8deec137b461dceb65a5d00811d81f
