@@ -4,10 +4,10 @@ from waitress import serve
 app = Flask(__name__)
 
 @app.route('/')
-def hello():
+def main():
     return "Hello World!"
 
-@app.route('/how are you')
+@app.route('/hello')
 def hello():
     return 'I am good, how about you?'
 
