@@ -1,1 +1,1 @@
-# simple-flask-app
+# devfile-sample-python-basic
